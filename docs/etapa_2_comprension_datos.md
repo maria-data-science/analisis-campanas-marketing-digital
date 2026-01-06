@@ -128,20 +128,4 @@ Estas observaciones indican la necesidad de una etapa de limpieza y normalizaci�
 
 En esta etapa se logró comprender la estructura, el significado y el comportamiento general del dataset. La exploración inicial permitió identificar patrones visibles, posibles problemas de calidad de datos y formular hipótesis que serán evaluadas en etapas posteriores mediante métricas específicas y análisis exploratorio en Python.
 
----
 
-## 📑 Diccionario de datos (tabla resumen)
-
-| Variable       | Descripción                                   | Tipo de dato |
-|---------------|-----------------------------------------------|--------------|
-| id            | Identificador único de cada registro           | Entero       |
-| c_date        | Fecha del registro de la campaña               | Fecha        |
-| campaign_name | Nombre de la campaña                           | Texto        |
-| category      | Canal de marketing                             | Texto        |
-| campaign_id   | Identificador único de la campaña              | Entero       |
-| impressions   | Número de veces que se mostró el anuncio       | Entero       |
-| mark_spent    | Monto invertido en la campaña                  | Decimal      |
-| clicks        | Número de clics                                | Entero       |
-| leads         | Número de leads generados                      | Entero       |
-| orders        | Número de ventas                               | Entero       |
-| revenue       | Ingresos generados                             | Decimal      |
